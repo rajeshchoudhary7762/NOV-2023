@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --primary-color: #009688;
+    --white: #FFFFFF;
+    --primary-dark: #616161;
+    --primary-light-dark-70: #9e9e9e;
+    --primary-light: rgba(0, 165, 148, 0.575);
+}
+h6 {
+    font-weight: 600;
+}
+p {
+    font-size: 0.9rem;
+}
+
+.p-color {
+    color: var(--primary-color);
+
+}
+.primary-light-dark-70-bg {
+    background-color: var(--primary-light-dark-70);
+}
+.pl-color {
+    background-color: var(--primary-light) !important;
+}
+.primary-dark-bg {
+    background-color: var(--primary-dark) !important;
+}
+.primary-color-bg {
+    background-color: var(--primary-color) !important;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+
+img {
+    width: 100%;
+}
+.container-fluid {
+    max-width: 1600px !important;
+}
+
+.side-nav-container {
+    max-width: 300px;
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+
+.side-nav {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+
+.profile-pic {
+    max-width: 45%;
+    margin-bottom: 2em;
+}
+
+.profile-pic img {
+    border-radius: 5px;
+}
+
+.list-item {
+    font-size: 0.9rem;
+    padding: 0.6em 0em;
+    cursor: pointer;
+}
+
+.list-item .list-icon span  {
+    font-size: 1.3rem;
+}
+
+.list-item:hover {
+    background-color: #ddd;
+}
+
+
+.sm-link {
+    color: #333;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+.sm-link:hover {
+    color: var(--primary-color);
+}
+
+header {
+    border-bottom: 5px solid #d3d3d3;
+}
+
+.filter-btns-container button {
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #ffffff;
+    font-size: 1rem;
+}
+
+.filter-btns-container button span {
+    font-size: 25px;
+}
+
+.filter-btns-container button:hover {
+    background-color: #ddd;
+}
+
+.main-card {
+    background-color: var(--white);
+}
+
+.card-header img:hover {
+    opacity: 0.75;
+}
+
+.active>.page-link, .page-link.active {
+    background-color: #333 !important;
+    border: 1px solid #333 !important;
+    color: #fff !important;
+}
+
+.progress {
+    background-color: #9e9e9e !important;
+    height: 35px !important;
+    border-radius: 0 !important;
+}
+.progress > .progress-bar {
+    background-color: #616161 !important;
+}
+.download-btn,
+.send-msg-btn {
+    background-color: #616161;
+    color: #f1f1f1;
+    transition: all ease-in-out 0.2s;
+}
+.download-btn:hover,
+.send-msg-btn:hover {
+    background-color: #d6d6d6 !important;
+    color: #000 !important;
+}
+
+.our-plans .card-header h4 {
+    padding: 1.2em 0;
+    background-color: #616161;
+    color: #f1f1f1;
+}
+
+.our-plans .card-footer .list-group-item {
+    padding: 0.8em 0 !important;
+}
+.our-plans .main-card {
+    transition: all ease-in-out 0.2s;
+}
+.our-plans .main-card:hover {
+    background-color: #ffffff !important;
+    transition: ease-in-out 0.2s;
+}
+
+.our-plans .main-card:hover h4 {
+    background-color: #333 !important;
+}
+.our-plans .main-card:hover button {
+    background-color: var(--primary-color) !important;
+}
+.our-plans .main-card:hover h4.mid-heading {
+    background-color: var(--primary-color) !important;
+}
+
+.page-link {
+    background-color: transparent !important;
+    color: #333 !important;
+}
+.contact-option {
+    color: var(--white);
+    background-color: var(--primary-dark);
+    padding: 1.2em 0.25em;
+}
+.contact-option .contact-icon span {
+    font-size: 2.2rem;
+}
+.contact-option .contact-detail {
+    font-size: 0.85rem;
+}
+.custom-hr {
+    border: 1.5px solid #eee;
+    margin: 2.4em 0 1.5em;
+}
+.input-field {
+    width: 100%;
+    margin-bottom: 1em;
+}
+.input-field input {
+    width: 100%;
+    padding: 0.4em;
+    background-color: #f9f9f9;
+    border: none;
+    outline: none;
+}
+.footer {
+    font-size: 0.9rem;
+}
+.footer-img-cont {
+    max-width: 70px;
+}
+.blog-item  {
+    transition: ease-in 0.2s;
+}
+.blog-item:hover {
+    background-color: #d3d3d3;
+    color: #333;
+}
+.tag-item {
+    background-color: #9e9e9e;
+    color: #333;
+    padding: 0 0.5em;
+    font-size: 0.8rem;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+.copyright-container span {
+    display: block;
+    font-size: 0.85rem;
+}
+.copyright-container span,
+.copyright-container span a {
+    color: #eee;
+}
